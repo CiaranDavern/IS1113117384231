@@ -3,7 +3,7 @@
 }
 .btn-success{
     background-color: #f44336; /* Purple */
-     border: none;
+     border: Blue;
     color: white;
     padding: 15px 32px;
     text-align: center;
@@ -13,7 +13,7 @@
 }
 .btn-dark{
     background-color: #f44336; /* Purple */
-     border: none;
+     border: Blue;
     color: white;
     padding: 15px 32px;
     text-align: center;
