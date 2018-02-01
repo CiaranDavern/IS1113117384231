@@ -13,8 +13,7 @@
             background-color: LightBlue;
              }
         button {
-           background-color: #f44336; /* Orange */
-    
+    background-color: #f44336; /* Orange */
     color: Yellow;
     padding: 15px 32px;
     text-align: center;
