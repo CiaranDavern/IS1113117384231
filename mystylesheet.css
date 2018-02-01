@@ -11,7 +11,7 @@
     display: inline-block;
     font-size: 16px;
 }
-.btn-success{
+.btn-center{
     background-color: #f44336; /* Purple */
      border: Purple;
     color: white;
@@ -21,14 +21,34 @@
     display: inline-block;
     font-size: 16px;
 }
-.btn-dark{
-    background-color: #f44336; /* Purple */
-     border: Purple;
+h1 { 
+  color: black;
+  text-align: center;
+}
+ body {
+            background-color: LightBlue;
+            }
+  p  {
+    text-align: center;
+     }
+.button{
+  background-color:  #ff6600; /* Orange */
+     border: 2px solid yellow; /* Yellow */
     color: white;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 16px;  
+}
+.Ebus{
+   background-color:  #ff6600; /* Orange */
+     border: 2px solid yellow; /* Yellow */
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;   
 }
     
