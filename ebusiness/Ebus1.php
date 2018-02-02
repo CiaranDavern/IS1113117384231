@@ -3,60 +3,46 @@
     <head>
         <title>Select Product</title>
     <!-- JQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"</script>
-    <script type="text/javascript" src="cost_cal.js"</script> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="cost_calc.js"></script> 
     </head>
     <body>
-        <style>
         
-        body {
-            background-color: LightBlue;
-             }
-        button {
-    background-color: #f44336; /* Orange */
-    color: Yellow;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-        }
-       </style>
         <h4 classSelect a product</h1>
         
         <br/>
         
         <form method="POST" action="Ebus2.php">
             
-            <lable for="salesforce">
+            <label for="salesforce">
                 <input type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
                 SalesForce @ $100
-            </lable>
+            </label>
             
             <br/>
             
-            <lable for="aws">
+            <label for="aws">
                 <input type="radio" id="aws" name="product" onClick="disablebtnProceed()"/>
                 AWS @ $300
-            </lable>
+            </label>
             
             <br/>
             <br/>
             
-            <lable for="subtotal">
+            <label for="subtotal">
                 Sub Total
                 <input type="text" id="subtotal" value="0.00" readonly/>
                 
-            </lable>
+            </label>
             
             <br/>
             
             
-            <lable for="total">
+            <label for="total">
                 Sub Total
                 <input type="text" id="total" value="0.00" readonly/>
                 
-            </lable>
+            </label>
             
             <br/>
             
