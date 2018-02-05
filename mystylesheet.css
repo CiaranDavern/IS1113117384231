@@ -2,7 +2,7 @@
     text-align: center;
 }
 .btn-success{
-    background-color: #f44336; /* Purple */
+    background-color: #f44336; /* Orange */
      border: Purple;
     color: white;
     padding: 15px 32px;
@@ -19,7 +19,7 @@
   transform: translateY(4px);
 }
 .btn-center{
-    background-color: #f44336; /* Purple */
+    background-color: #f44336; /* Red */
      border: 2px solid black;
     color: white;
     padding: 15px 32px;
@@ -36,7 +36,7 @@
   transform: translateY(4px);
 }
 .btn-dark{
-    background-color: #f44336; /* Purple */
+    background-color: #f44336; /* Red */
      border: 2px solid black;
     color: white;
     padding: 15px 32px;
@@ -81,7 +81,7 @@ h1 {
 }
 .Ebus{
    background-color:  #ff6600; /* Orange */
-     border: 2px solid black; /* Yellow */
+     border: 2px solid black; /* Black */
     color: white;
     padding: 15px 32px;
     text-align: center;
@@ -95,4 +95,26 @@ h1 {
   background-color: #3e8e41;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
+}
+.btnProceed{
+   background-color:  #ff6600; /* Orange */
+     border: 2px solid black; /* Black */
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;   
+}
+.btnProceed:hover {background-color: #3e8e41}
+
+.btnProceed:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.header {
+    background-color: #f1f1f1;
+    padding: 2px;
+    text-align: center;
 }

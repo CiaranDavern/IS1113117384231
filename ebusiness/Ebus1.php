@@ -2,6 +2,7 @@
 <html>
     <head>
         <title>Select Product</title>
+        <link rel="stylesheet" href="../mystylesheet.css" type="text/css"/>
     <!-- JQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="cost_calc.js"></script> 
@@ -52,7 +53,7 @@
         
         <br/>
         <button onClick="calcSub()">Calculate Cost</button>
-        <a role="button" href="Ebus1.php">Clear Choice</a>
+        <a role="button" href="Ebus1.php" class ="btnProceed">Clear Choice</a>
         
         
     </body>
