@@ -118,3 +118,20 @@ h1 {
     padding: 2px;
     text-align: center;
 }
+.git{
+   background-color:  #ff6600; /* Orange */
+     border: 2px solid black; /* Black */
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;   
+}
+.git:hover {background-color: #3e8e41}
+
+.git:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
