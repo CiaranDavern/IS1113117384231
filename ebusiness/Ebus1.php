@@ -11,7 +11,7 @@
         <div class="header">
   <h1 class="mainheading">Order Form</h1>
 </div>
-        <h4 classSelect a product</h1>
+    
         
         <br/>
         
@@ -33,7 +33,7 @@
             <br/>
             
             <label for="subtotal">
-                Sub Total
+                Sub Total:
                 <input type="text" id="subtotal" value="0.00" readonly/>
                 
             </label>
@@ -42,7 +42,7 @@
             
             
             <label for="total">
-                Sub Total
+                Total:
                 <input type="text" id="total" value="0.00" readonly/>
                 
             </label>
@@ -55,7 +55,7 @@
         
         <br/>
         <button onClick="calcSub()">Calculate Cost</button>
-        <a role="button" href="Ebus2.php" class ="btnProceed">Clear Choice</a>
+        <a role="button" href="Ebus1.php" class ="btnProceed">Clear Choice</a>
         
         
     </body>
