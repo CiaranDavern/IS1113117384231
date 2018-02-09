@@ -7,8 +7,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="cost_calc.js"></script> 
     </head>
-    <body>
-        
+    
+        <div class="header">
+  <h1 class="mainheading">Order Form</h1>
+</div>
         <h4 classSelect a product</h1>
         
         <br/>
@@ -53,7 +55,7 @@
         
         <br/>
         <button onClick="calcSub()">Calculate Cost</button>
-        <a role="button" href="Ebus1.php" class ="btnProceed">Clear Choice</a>
+        <a role="button" href="Ebus2.php" class ="btnProceed">Clear Choice</a>
         
         
     </body>

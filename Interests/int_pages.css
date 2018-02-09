@@ -1,12 +1,24 @@
 #selection1{
     background-color: rgb(238, 0, 90);
+    background-image: url("https://www.easyjet.com/en/holidays/shared/images/guides/portugal.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
 }
 
 #selection2{
         background-color: rgb(44, 62, 80);
+        background-image: url("http://www.telegraph.co.uk/content/dam/Travel/2016/July/croatia-krka-AP-TRAVEL.jpg?imwidth=1400");
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
 }
 #selection3{
         background-color: rgb(51, 153, 204);
+        background-image: url("http://vizts.com/wp-content/uploads/2017/12/Ireland.jpg");
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
 }
 .section{
     text-align: center;
