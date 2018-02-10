@@ -14,7 +14,7 @@
         <h4>Please enter your payment details</h4>
         
         
-            <form action="Ebus3.php" method="POST">
+            <form action="Ebus3.php" method="POST" class ="btnProceed">
 
                     <label for="user_pin">PIN</label>
                     <input type="password" id="user_pin" placeholder="Card PIN" maxlength="4">
@@ -24,7 +24,7 @@
             </form>
             
             <br/>
-            <button onClick="validateDetails()">Validate</button>
+            <button onClick="validateDetails()" class ="btnProceed">Validate</button>
             
         </div>
         

@@ -14,8 +14,8 @@
     
         
         <br/>
-        
-        <form method="POST" action="Ebus2.php">
+        <center>
+        <form method="POST" action="Ebus2.php" class ="btnProceed">
             
             <label for="salesforce">
                 <input type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
@@ -59,4 +59,5 @@
         
         
     </body>
+    </center>
 </html>
