@@ -55,12 +55,14 @@
 h1 { 
   color: black;
   text-align: center;
+  font-family: Impact, Charcoal, sans-serif
 }
  body {
             background-color: LightBlue;
             }
   p  {
     text-align: center;
+    
      }
 .button{
   background-color:  #ff6600; /* Orange */
