@@ -1,3 +1,7 @@
+<?php
+// Start the session
+session_start();
+?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -14,17 +18,21 @@
         <h4>Please enter your payment details</h4>
         
         
-            <form action="Ebus3.php" method="POST" class ="btnProceed">
+            <form action="Ebus3.php" method="POST"">
 
                     <label for="user_pin">PIN</label>
                     <input type="password" id="user_pin" placeholder="Card PIN" maxlength="4">
 
-                <button type="submit" id="btnPurchase" disabled>Proceed with Purchase</button>
+                <button type="submit" class ="btnProceed" id="btnPurchase" disabled>Proceed with Purchase</button>
               
             </form>
             
             <br/>
             <button onClick="validateDetails()" class ="btnProceed">Validate</button>
+            <?php
+            //Set session variables
+            $_SESSION["total"] = $_POST["total"];
+            ?>
             
         </div>
         

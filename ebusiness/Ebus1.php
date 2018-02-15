@@ -43,18 +43,18 @@
             
             <label for="total">
                 Total:
-                <input type="text" id="total" value="0.00" readonly/>
+                <input type="text" id="total" name="total" value="0.00" readonly/>
                 
             </label>
             
             <br/>
             
-            <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
+            <button type="submit" class="btnProceed" id="btnProceed" disabled>Add to Shopping Cart</button>
             
         </form>
         
         <br/>
-        <button onClick="calcSub()">Calculate Cost</button>
+        <button type="submit" class="btnProceed" onClick="calcSub()">Calculate Cost</button>
         <a role="button" href="Ebus1.php" class ="btnProceed">Clear Choice</a>
         
         
