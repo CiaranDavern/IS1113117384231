@@ -1,3 +1,8 @@
+<?php
+// Start the session
+session_start();
+?>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -20,6 +25,7 @@
             <label for="salesforce">
                 <input type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
                 SalesForce @ $100
+                Vat @ $10
             </label>
             
             <br/>
@@ -27,6 +33,7 @@
             <label for="aws">
                 <input type="radio" id="aws" name="product" onClick="disablebtnProceed()"/>
                 AWS @ $300
+                Vat @ $30
             </label>
             
             <br/>
@@ -34,12 +41,19 @@
             
             <label for="subtotal">
                 Sub Total:
-                <input type="text" id="subtotal" value="0.00" readonly/>
+                <input type="text" id="subtotal" name="subtotal" value="0.00" readonly/>
                 
             </label>
             
             <br/>
             
+            <label for="vattotal">
+                VAT Total:
+                <input type="text" id="vattotal" name="vattotal" value="0.00" readonly/>
+                
+            </label>
+            
+            <br/>
             
             <label for="total">
                 Total:
@@ -50,7 +64,10 @@
             <br/>
             
             <button type="submit" class="btnProceed" id="btnProceed" disabled>Add to Shopping Cart</button>
-            
+             <?php
+            //Set session variables
+            $_SESSION["total"] = $_POST["total"];
+            ?>
         </form>
         
         <br/>
