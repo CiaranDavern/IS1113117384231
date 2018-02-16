@@ -14,7 +14,7 @@ session_start();
     
     <ul>
   <li><a class="btnProceed" href="../homepage.html">Home</a></li>
-  <li><a class="btnProceed"  href="../sports.html">Interests</a></li>
+  <li><a class="btnProceed"  href="Interests/sports.html">Interests</a></li>
   <li><a class="btnProceed"  href="Ebus1.php">E Business</a></li>
 </ul>
     
@@ -32,7 +32,6 @@ session_start();
             <label for="salesforce">
                 <input type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
                 SalesForce @ $100
-                Vat @ $10
             </label>
             
             <br/>
@@ -40,7 +39,6 @@ session_start();
             <label for="aws">
                 <input type="radio" id="aws" name="product" onClick="disablebtnProceed()"/>
                 AWS @ $300
-                Vat @ $30
             </label>
             
             <br/>
@@ -53,6 +51,13 @@ session_start();
             </label>
             
             <br/>
+            <label for="discount">
+                Discount Total:
+                <input type="text" id="discount" name="discount" value="0.00" readonly/>
+                
+            </label>
+            
+            </br>
             
             <label for="vattotal">
                 VAT Total:
@@ -78,7 +83,7 @@ session_start();
         </form>
         
         <br/>
-        <button type="submit" class="btnProceed" onClick="calcSub()">Calculate Cost</button>
+        <button type="submit" class="btnProceed" onClick="calcSub()""calcDisVatTotal()""display()">Calculate Cost</button>
         <a role="button" href="Ebus1.php" class ="btnProceed">Clear Choice</a>
         
         

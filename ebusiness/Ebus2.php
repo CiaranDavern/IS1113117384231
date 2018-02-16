@@ -13,12 +13,13 @@ session_start();
         
         <ul>
   <li><a class="btnProceed" href="../homepage.html">Home</a></li>
-  <li><a class="btnProceed"  href="../sports.html">Interests</a></li>
+  <li><a class="btnProceed"  href="Interests/sports.html">Interests</a></li>
   <li><a class="btnProceed"  href="Ebus1.php">E Business</a></li>
 </ul>
         
     </head>
     <body>
+        <center>
         <div class="header">
   <h1 class="mainheading">Payment Page</h1>
 </div>
@@ -26,7 +27,14 @@ session_start();
         
         
             <form action="Ebus3.php" method="POST"">
-
+                     <label for="fullname">
+                Full Name:
+                <input type="text" id="fullname" name="fullname">
+            </label>
+            <label for="email">
+                Email:
+                <input type="text" id="email" name="email">
+            </label>
                     <label for="user_pin">PIN</label>
                     <input type="password" id="user_pin" placeholder="Card PIN" maxlength="4">
 
@@ -42,7 +50,8 @@ session_start();
             ?>
             
         </div>
-        
+        </center>
         <script type="text/javascript" src="ebus2_validator.js"></script>
+        
     </body>
 </html>
