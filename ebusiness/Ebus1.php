@@ -11,6 +11,13 @@ session_start();
     <!-- JQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="cost_calc.js"></script> 
+    
+    <ul>
+  <li><a class="btnProceed" href="../homepage.html">Home</a></li>
+  <li><a class="btnProceed"  href="../sports.html">Interests</a></li>
+  <li><a class="btnProceed"  href="../Ebus1.php">E Business</a></li>
+</ul>
+    
     </head>
     
         <div class="header">

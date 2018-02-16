@@ -12,6 +12,12 @@ session_start();
   <h1 class="mainheading">Receipt</h1>
 </div>
         
+        <ul>
+  <li><a class="btnProceed" href="../homepage.html">Home</a></li>
+  <li><a class="btnProceed"  href="../sports.html">Interests</a></li>
+  <li><a class="btnProceed"  href="../Ebus1.php">E Business</a></li>
+</ul>
+        
     </head>
     <body>
         

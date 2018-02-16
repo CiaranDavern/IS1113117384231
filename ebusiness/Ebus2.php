@@ -10,6 +10,13 @@ session_start();
         
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        
+        <ul>
+  <li><a class="btnProceed" href="../homepage.html">Home</a></li>
+  <li><a class="btnProceed"  href="../sports.html">Interests</a></li>
+  <li><a class="btnProceed"  href="../Ebus1.php">E Business</a></li>
+</ul>
+        
     </head>
     <body>
         <div class="header">
