@@ -1,4 +1,5 @@
 #selection1{
+    
     background-color: rgb(238, 0, 90);
     background-image: url("https://www.easyjet.com/en/holidays/shared/images/guides/portugal.jpg");
     height: 100vh;
@@ -24,4 +25,7 @@
     text-align: center;
     color: black;
     font-size: 32px;
+}
+h1 span { 
+    background-color: white; 
 }
