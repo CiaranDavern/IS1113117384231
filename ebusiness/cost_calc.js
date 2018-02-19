@@ -3,19 +3,23 @@ function calcSub(){
     
     var argSubTotal;
     
-    if(document.getElementById('salesforce').checked) {
+    
+    if(document.getElementById('salesforce').checked){ 
         argSubTotal = 100;
         
-    }
-    else {
+    }else if (document.getElementById('aws').checked){
         argSubTotal = 300;
-    }
-    display(argSubTotal);
+     }else if (document.getElementById('gmail').checked){
+        argSubTotal = 150;
+      }else{
+        argSubTotal = 80;
+      }
+   display(argSubTotal);
 }
    
 function display(parm1){
     document.getElementById("subtotal").value = parm1;
-    document.getElementById("total").value = parm1;
+    
 
     enablebtnProceed();
 }

@@ -41,7 +41,21 @@ session_start();
                 AWS @ $300
             </label>
             
+           
             <br/>
+            
+            <label for="gmail">
+                <input type="radio" id="gmail" name="product" onClick="disablebtnProceed()"/>
+                Gmail @ $150
+            </label>
+            
+            <br/>
+            
+            <label for="cloud 9">
+                <input type="radio" id="cloud 9" name="product" onClick="disablebtnProceed()"/>
+                Cloud 9 @ $80
+            </label>
+            
             <br/>
             
             <label for="subtotal">
