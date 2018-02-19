@@ -9,28 +9,16 @@ function calcSub(){
     }
     else {
         argSubTotal = 300;
-        
     }
+    display(argSubTotal);
+}
    
-function calcDisVatTotal(argSubTotal){
-    var argTotal;
-    var argDiscount;
-    var argVat;
-    if(document.getElementById('salesforce').checked) {
-        argDiscount = 5;
-        argVat = 9.50;
-        argTotal = 104.50;
-}
-else{
-    argDiscount = 15;
-    argVat = 28.50;
-    argTotal = 313.50;
-} 
-function Display(argSubTotal){
-    document.getElementById("subtotal").value = argSubTotal;
-    
-}
+function display(parm1){
+    document.getElementById("subtotal").value = parm1;
+    document.getElementById("total").value = parm1;
 
+    enablebtnProceed();
+}
 
 function enablebtnProceed(){
     $('#btnProceed').prop('disabled', false);
