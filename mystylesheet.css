@@ -58,7 +58,7 @@ h1 {
   font-family: Impact, Charcoal, sans-serif
 }
  body {
-    background-image: url("https://images.pexels.com/photos/583846/pexels-photo-583846.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
+    background-image: url("https://images.pexels.com/photos/593322/pexels-photo-593322.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -121,17 +121,17 @@ h1 {
 }
 .header {
     background-color: #f1f1f1;
-    padding: 2px;
+    padding: 0px;
     text-align: center;
 }
 .footer {
    position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color: white;
-   color: black;
-   text-align: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    color: white;
+    text-align: center;
 }
 .git{
    background-color:  #ff6600; /* Orange */
