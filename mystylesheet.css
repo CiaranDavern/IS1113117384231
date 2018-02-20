@@ -2,8 +2,7 @@
     text-align: center;
 }
 .btn-success{
-    background-color: #f44336; /* Orange */
-     border: Purple;
+    background-color: orange; /* Orange */
     color: white;
     padding: 15px 32px;
     text-align: center;
@@ -14,7 +13,7 @@
 .btn-success:hover {background-color: #3e8e41}
 
 .btn-success:active {
-  background-color: #3e8e41;
+  background-color: orange;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
@@ -31,7 +30,7 @@
 .btn-center:hover {background-color: #3e8e41}
 
 .btn-center:active {
-  background-color: #3e8e41;
+  background-color: orange;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
@@ -69,7 +68,7 @@ h1 {
     
      }
 .button{
-  background-color:  #ff6600; /* Orange */
+  background-color:  orange; /* Orange */
      border: 2px solid black; /* Black */
     color: white;
     padding: 15px 32px;
@@ -86,7 +85,7 @@ h1 {
   transform: translateY(4px);
 }
 .Ebus{
-   background-color:  #ff6600; /* Orange */
+   background-color:  orange; /* Orange */
      border: 2px solid black; /* Black */
     color: white;
     padding: 15px 32px;
@@ -103,7 +102,7 @@ h1 {
   transform: translateY(4px);
 }
 .btnProceed{
-   background-color:  #ff6600; /* Orange */
+   background-color:  orange; /* Orange */
      border: 2px solid black; /* Black */
     color: white;
     padding: 15px 32px;
@@ -134,7 +133,7 @@ h1 {
     text-align: center;
 }
 .git{
-   background-color:  #ff6600; /* Orange */
+   background-color:  orange; /* Orange */
      border: 2px solid black; /* Black */
     color: white;
     padding: 15px 32px;

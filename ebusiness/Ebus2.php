@@ -13,8 +13,9 @@ session_start();
         
         <ul>
   <li><a class="btnProceed" href="../homepage.html">Home</a></li>
-  <li><a class="btnProceed"  href="Interests/sports.html">Interests</a></li>
+  <li><a class="btnProceed"  href="/Interests/Cloud.html">Interests</a></li>
   <li><a class="btnProceed"  href="/ebusiness/Ebus1.php">E Business</a></li>
+  <li><a class="btnProceed"  href="/cv_page1.html">CV pages</a></li>
 </ul>
         
     </head>
