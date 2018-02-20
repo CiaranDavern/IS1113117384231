@@ -58,7 +58,11 @@ h1 {
   font-family: Impact, Charcoal, sans-serif
 }
  body {
-            background-color: LightBlue;
+    background-image: url("https://images.pexels.com/photos/583846/pexels-photo-583846.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    
             }
   p  {
     text-align: center;
