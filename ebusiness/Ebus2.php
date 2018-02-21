@@ -53,6 +53,8 @@ session_start();
         </div>
         </center>
         <script type="text/javascript" src="ebus2_validator.js"></script>
-        <a href="/homepage.html" class="btn btn-success">Home</a>
+        <div align=center
+        <a href="/homepage.html" class="btn button">Home</a>
+        </div>
     </body>
 </html>
