@@ -103,7 +103,7 @@ session_start();
         <br/>
         <button type="submit" class="btnProceed" onClick="calcSub()""calcDisVatTotal()""display()">Calculate Cost</button>
         <a role="button" href="Ebus1.php" class ="btnProceed">Clear Choice</a>
-        
+        <a href="/homepage.html" class="btn btn-success">Home</a>
         
     </body>
     </center>

@@ -16,6 +16,7 @@ session_start();
   <li><a class="btnProceed" href="../homepage.html">Home</a></li>
   <li><a class="btnProceed"  href="Interests/sports.html">Interests</a></li>
   <li><a class="btnProceed"  href="/ebusiness/Ebus1.php">E Business</a></li>
+  <li><a class="btnProceed"  href="/cv_page1.html">CV pages</a></li>
 </ul>
         
     </head>
@@ -26,6 +27,7 @@ session_start();
         //Echo session variables that were set on previous page
         echo "Total is " . $_SESSION["total"] . ".";
         ?>
+        <a href="/homepage.html" class="btn btn-success">Home</a>
     </body>
     </center>
 </html>
