@@ -9,6 +9,7 @@
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    border-radius: 12px;
 }
 .btn-success:hover {background-color: #3e8e41}
 
@@ -26,6 +27,7 @@
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    border-radius: 12px;
 }
 .btn-center:hover {background-color: #3e8e41}
 
@@ -43,6 +45,7 @@
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    border-radius: 12px;
 }
 .btn-dark:hover {background-color: #3e8e41}
 
@@ -75,7 +78,8 @@ h1 {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;  
+    font-size: 16px; 
+    border-radius: 12px;
 }
 .button:hover {background-color: #3e8e41}
 
@@ -92,7 +96,8 @@ h1 {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;   
+    font-size: 16px;  
+    border-radius: 12px;
 }
 .Ebus:hover {background-color: #3e8e41}
 
@@ -110,6 +115,7 @@ h1 {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;   
+    border-radius: 12px;
 }
 .btnProceed:hover {background-color: #3e8e41}
 
@@ -140,7 +146,8 @@ h1 {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;   
+    font-size: 16px;  
+    border-radius: 12px;
 }
 .git:hover {background-color: #3e8e41}
 
