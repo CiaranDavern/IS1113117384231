@@ -29,6 +29,17 @@ session_start();
         <br/>
         <center>
         <form method="POST" action="Ebus2.php">
+             <label for="fullname">
+                Full Name:
+                <input type="text" id="fullname" name="fullname" checked onClick="disablebtnProceed()">
+            </label>
+            <label for="email">
+                Email:
+                <input type="text" id="email" name="email">
+            </label>
+            
+            </br>
+            </br>
             
             <label for="salesforce">
                 <input type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
@@ -67,7 +78,7 @@ session_start();
             
             <br/>
             <label for="discount">
-                Discount Total:
+                Discount Total 5%:
                 <input type="text" id="discount" name="discount" value="0.00" readonly/>
                 
             </label>
@@ -75,7 +86,7 @@ session_start();
             </br>
             
             <label for="vattotal">
-                VAT Total:
+                VAT Total 10%:
                 <input type="text" id="vattotal" name="vattotal" value="0.00" readonly/>
                 
             </label>
@@ -90,7 +101,7 @@ session_start();
             
             <br/>
             
-            <button type="submit" class="btnProceed" id="btnProceed" disabled>Add to Shopping Cart</button>
+            <button type="submit" onClick="validate()" class="btnProceed" id="btnProceed" disabled>Add to Shopping Cart</button>
              <?php
             //Set session variables
             $_SESSION["subtotal"] = $_POST["subtotal"];
@@ -101,7 +112,7 @@ session_start();
         </form>
         
         <br/>
-        <button type="submit" class="btnProceed" onClick="calcSub()""calcDisVatTotal()""display()">Calculate Cost</button>
+        <button type="submit" class="btnProceed" onClick="calcSub()">Calculate Cost</button>
         <a role="button" href="Ebus1.php" class ="btnProceed">Clear Choice</a>
         <a href="/homepage.html" class="btn button">Home</a>
         

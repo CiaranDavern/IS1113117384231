@@ -28,14 +28,8 @@ session_start();
         
         
             <form action="Ebus3.php" method="POST"">
-                     <label for="fullname">
-                Full Name:
-                <input type="text" id="fullname" name="fullname">
-            </label>
-            <label for="email">
-                Email:
-                <input type="text" id="email" name="email">
-            </label>
+                    <label for="card_number">Card Number</label>
+                    <input type="password" id="Card_Number" placeholder="Card Number" maxlength="12">
                     <label for="user_pin">PIN</label>
                     <input type="password" id="user_pin" placeholder="Card PIN" maxlength="4">
 
@@ -48,6 +42,11 @@ session_start();
             <?php
             //Set session variables
             $_SESSION["total"] = $_POST["total"];
+             $_SESSION["discount"] = $_POST["discount"];
+            $_SESSION["vattotal"] = $_POST["vattotal"];
+            $_SESSION["total"] = $_POST["total"];
+            $_SESSION["fullname"] = $_POST["fullname"];
+            $_SESSION["email"] = $_POST["email"];
             ?>
             
         </div>

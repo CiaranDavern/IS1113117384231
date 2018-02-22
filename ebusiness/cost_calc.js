@@ -50,6 +50,20 @@ function display(parm1, parm2, parm3, parm4){
 
     enablebtnProceed();
 }
+function validate(){
+   
+        if (document.getElementById("fullname").value == ""){
+            // something is wrong
+            alert('You must enter a full name');
+            return false;
+        }else if (document.getElementById("email").value == ""){
+            // something is wrong
+            alert('You must enter an email');
+            return false;
+        }
+        else 
+        return true;
+        } 
 
 function enablebtnProceed(){
     $('#btnProceed').prop('disabled', false);
