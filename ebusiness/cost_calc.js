@@ -62,11 +62,6 @@ function validate(){
             alert('You must enter your card number');
             return false;
         }
-}else if (document.getElementById("").value == ""){
-            // something is wrong
-            alert('You must enter an email');
-            return false;
-        }
         return true;
         } 
 
