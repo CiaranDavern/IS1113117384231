@@ -57,7 +57,7 @@
 h1 { 
   color: black;
   text-align: center;
-  font-family: Impact, Charcoal, sans-serif
+  font-family: Impact, Charcoal, sans-serif;
 }
  body {
     background-image: url("https://images.pexels.com/photos/593322/pexels-photo-593322.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
@@ -67,8 +67,10 @@ h1 {
     
             }
   p  {
-    text-align: center;
-    
+    color: black;
+  text-align: center;
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 32px;
      }
 .button{
   background-color:  orange; /* Orange */

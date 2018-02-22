@@ -33,12 +33,13 @@ session_start();
                     <label for="user_pin">PIN</label>
                     <input type="password" id="user_pin" placeholder="Card PIN" maxlength="4">
 
-                <button type="submit" class ="btnProceed" id="btnPurchase" disabled>Proceed with Purchase</button>
+                <button type="submit" class ="btn btn-dark" id="btnPurchase" disabled>Proceed with Purchase</button>
+                <a href="../homepage.html" class="btn button">Home</a>
               
             </form>
             
             <br/>
-            <button onClick="validateDetails()" class ="btnProceed">Validate</button>
+            <button onClick="validateDetails()" class ="btn btn-dark">Validate</button>
             <?php
             //Set session variables
             $_SESSION["total"] = $_POST["total"];
@@ -53,7 +54,6 @@ session_start();
         </center>
         <script type="text/javascript" src="ebus2_validator.js"></script>
         <div align=center
-        <a href="/homepage.html" class="btn button">Home</a>
         </div>
     </body>
 </html>

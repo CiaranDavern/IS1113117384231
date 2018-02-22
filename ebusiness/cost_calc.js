@@ -61,7 +61,6 @@ function validate(){
             alert('You must enter an email');
             return false;
         }
-        else 
         return true;
         } 
 

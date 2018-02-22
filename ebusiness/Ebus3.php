@@ -21,28 +21,25 @@ session_start();
         
     </head>
     <body>
-        
-        
+        <style>
+            p{
+                font-size: 32px;
+            }
+        </style>
+        <p>
         <?php
         //Echo session variables that were set on previous page
+        echo "Full name is " . $_SESSION["fullname"] . ".";
+        echo "<br>";
+        echo "Email address is " . $_SESSION["email"] . ".";
+        echo "<br>";
         echo "Total is " . $_SESSION["total"] . ".";
-        ?>
-        <br>
-        <?php
+        echo "<br>";
         echo "Discount Total is " . $_SESSION["discount"] . ".";
-        ?>
-        <br>
-        <?php
+        echo "<br>";
         echo "VAT Total is " . $_SESSION["vattotal"] . ".";
         ?>
-        <br>
-        <?php
-        echo "Full name is " . $_SESSION["fullname"] . ".";
-        ?>
-        <br>
-        <?php
-        echo "Email address is " . $_SESSION["email"] . ".";
-        ?>
+        </p>
         <br>
         <div align=center
         <a href="/homepage.html" class="btn button">Home</a>

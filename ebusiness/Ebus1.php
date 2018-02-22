@@ -28,7 +28,7 @@ session_start();
         
         <br/>
         <center>
-        <form method="POST" action="Ebus2.php">
+        <form method="POST" onSubmit="return validate()" action="Ebus2.php">
              <label for="fullname">
                 Full Name:
                 <input type="text" id="fullname" name="fullname" checked onClick="disablebtnProceed()">
@@ -101,7 +101,7 @@ session_start();
             
             <br/>
             
-            <button type="submit" onClick="validate()" class="btnProceed" id="btnProceed" disabled>Add to Shopping Cart</button>
+            <button type="submit" class="btn btn-dark" id="btnProceed" disabled>Add to Shopping Cart</button>
              <?php
             //Set session variables
             $_SESSION["subtotal"] = $_POST["subtotal"];
@@ -112,8 +112,8 @@ session_start();
         </form>
         
         <br/>
-        <button type="submit" class="btnProceed" onClick="calcSub()""calcDisVatTotal()""display()">Calculate Cost</button>
-        <a role="button" href="Ebus1.php" class ="btnProceed">Clear Choice</a>
+        <button type="submit" class="btn btn-dark" onClick="calcSub()""calcDisVatTotal()""display()">Calculate Cost</button>
+        <a role="button" href="Ebus1.php" class ="btn btn-dark">Clear Choice</a>
         <a href="/homepage.html" class="btn button">Home</a>
         
     </body>
