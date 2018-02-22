@@ -31,11 +31,11 @@ session_start();
         <form method="POST" onSubmit="return validate()" action="Ebus2.php">
              <label for="fullname">
                 Full Name:
-                <input type="text" id="fullname" name="fullname" checked onClick="disablebtnProceed()">
+                <input type="text" id="fullname" name="fullname" maxlength="25" checked onClick="disablebtnProceed()">
             </label>
             <label for="email">
                 Email:
-                <input type="text" id="email" name="email">
+                <input type="text" id="email" name="email" maxlength="25">
             </label>
             
             </br>

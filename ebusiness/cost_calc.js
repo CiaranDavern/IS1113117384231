@@ -57,7 +57,12 @@ function validate(){
             // something is wrong
             alert('You must enter a full name');
             return false;
-        }else if (document.getElementById("email").value == ""){
+        }else if (document.getElementById("Card_Number").value == ""){
+            // something is wrong
+            alert('You must enter your card number');
+            return false;
+        }
+}else if (document.getElementById("").value == ""){
             // something is wrong
             alert('You must enter an email');
             return false;
