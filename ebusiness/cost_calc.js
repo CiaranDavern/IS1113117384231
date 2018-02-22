@@ -15,7 +15,7 @@ function calcSub(){
      }else if (document.getElementById('gmail').checked){
         argSubTotal = 150;
       }else{
-        argSubTotal = 80;.
+        argSubTotal = 80;
         
       }
    calcDisVatTotal();
@@ -57,13 +57,16 @@ function validate(){
             // something is wrong
             alert('You must enter a full name');
             return false;
-        }else if (document.getElementById("Card_Number").value == ""){
+        }
+         else if (document.getElementById("email").value == ""){
             // something is wrong
-            alert('You must enter your card number');
+            alert('You must enter your email');
             return false;
         }
+        {
         return true;
         } 
+}
 
 function enablebtnProceed(){
     $('#btnProceed').prop('disabled', false);

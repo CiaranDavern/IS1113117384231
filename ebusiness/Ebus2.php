@@ -27,9 +27,9 @@ session_start();
         <h4>Please enter your payment details</h4>
         
         
-            <form action="Ebus3.php" method="POST"">
+            <form action="Ebus3.php" method="POST">
                     <label for="card_number">Card Number</label>
-                    <input type="password" id="Card_Number" placeholder="Card Number" maxlength="12">
+                    <input type="password" id="Card_Number" placeholder="Card Number" maxlength="16">
                     <label for="user_pin">PIN</label>
                     <input type="password" id="user_pin" placeholder="Card PIN" maxlength="4">
 
