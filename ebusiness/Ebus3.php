@@ -8,16 +8,17 @@ session_start();
     <head>
         <title>Receipt</title>
         <center>
-            <div class="header">
-  <h1 class="mainheading">Receipt</h1>
-</div>
-        
-        <ul>
+            
+            <ul>
   <li><a class="btnProceed" href="../homepage.html">Home</a></li>
   <li><a class="btnProceed"  href="Interests/sports.html">Interests</a></li>
   <li><a class="btnProceed"  href="/ebusiness/Ebus1.php">E Business</a></li>
   <li><a class="btnProceed"  href="/cv_page1.html">CV pages</a></li>
 </ul>
+            <div class="header">
+  <h1 class="mainheading">Receipt</h1>
+</div>
+        
         
     </head>
     <body>
@@ -42,7 +43,7 @@ session_start();
         </p>
         <br>
         <div align=center
-        <a href="/homepage.html" class="btn button">Home</a>
+        <a href="../homepage.html" class="btn button">Home</a>
         </div>
     </body>
     </center>
