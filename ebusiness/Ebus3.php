@@ -42,9 +42,8 @@ session_start();
         ?>
         </p>
         <br>
-        <div align=center
+        
         <a href="../homepage.html" class="btn button">Home</a>
-        </div>
     </body>
     </center>
 </html>
