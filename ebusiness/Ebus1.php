@@ -35,7 +35,7 @@ session_start();
             </label>
             <label for="email">
                 Email:
-                <input type="text" id="email" name="email">
+                <input type="email" id="email" name="email">
             </label>
             
             </br>
