@@ -34,11 +34,12 @@ session_start();
                     <input type="password" id="user_pin" placeholder="Card PIN" maxlength="4">
 
                 <button type="submit" class ="btn btn-dark" id="btnPurchase" disabled>Proceed with Purchase</button>
-                <a href="../homepage.html" class="btn button">Home</a>
+                
               
             </form>
             
             <br/>
+             <a href="../homepage.html" class="btn button">Home</a>
             <button onClick="validateDetails()" class ="btn btn-dark">Validate</button>
             <?php
             //Set session variables

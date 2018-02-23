@@ -34,11 +34,11 @@ session_start();
         echo "<br>";
         echo "Email address is " . $_SESSION["email"] . ".";
         echo "<br>";
-        echo "Total is " . $_SESSION["total"] . ".";
+        echo "Total is $" . $_SESSION["total"] . ".";
         echo "<br>";
-        echo "Discount Total is " . $_SESSION["discount"] . ".";
+        echo "Discount Total is $" . $_SESSION["discount"] . ".";
         echo "<br>";
-        echo "VAT Total is " . $_SESSION["vattotal"] . ".";
+        echo "VAT Total is $" . $_SESSION["vattotal"] . ".";
         ?>
         </p>
         <br>

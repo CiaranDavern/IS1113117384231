@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head> 
+    <meta charset="utf-8"/>
     <title>Cloud computing</title>
     <link rel="stylesheet" href="../mystylesheet.css" type="text/css"/>
+    <link rel="stylesheet" href="int_pages.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
     
     
@@ -10,37 +12,50 @@
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 
-<ul>
-  <li><a class="btnProceed" href="../homepage.html">Home</a></li>
-  <li><a class="btnProceed"  href="sports.html">Interests</a></li>
-  <li><a class="btnProceed"  href="/ebusiness/AboutCloud.html">E Business</a></li>
-  <li><a class="btnProceed"  href="/cv_page1.html">CV pages</a></li>
-</ul>
+<!-- Pagepilling -->
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.4/jquery.pagepiling.css" />
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.4/jquery.pagepiling.js"></script>
+
+
+<script type = "text/javascript">
+    $(document).ready(function() {
+	$('#pagepiling').pagepiling();
+});
+</script>
+
 
     </head>
     <body>
-
-        <div class="header">
-  <h1 class="mainheading">Cloud Computing!</h1>
+        
+        <div id="pagepiling">
+	<div class="section" id="selection4"><p><strong>Cloud Computing:</strong> the practice
+	of using a network of remote servers hosted on the Internet to store, manage, and process data,
+    rather than a local server or a personal computer.</p></div>
+	<div class="section" id="selection4"><p><i class="fa fa-cloud" style="font-size:48px;color:white;" ></i></p>
+        <p>The idea behind cloud computing is similar: The user can simply use storage, computing power,
+        or specially crafted development environments, without having to worry how these work internally.
+        Cloud computing is usually Internet-based computing. The cloud is a metaphor for the Internet based
+        on how the internet is described in computer network diagrams; which means it is an abstraction
+        hiding the complex infrastructure of the internet. It is a style of computing in which IT-related
+        capabilities are provided "as a service", allowing users to access technology-enabled services from
+        the Internet ("in the cloud") without knowledge of, or control over the technologies behind these servers.</p></div>
+	<div class="section" id="selection4">
+	    Most cloud computing services fall into three broad categories: infrastructure as a service (IaaS), platform as a service
+	    (PaaS), and software as a service (Saas). These are sometimes called the cloud computing stack, because they build on top of
+	    one another.
+	    <br/>
+	    <a href="/homepage.html" class="btn button">Home</a>
+	</div>
+	    
 </div>
-        
-        <p><strong>Cloud Computing:</strong> the practice of using a network of remote servers
-        hosted on the Internet to store, manage, and process data,
-        rather than a local server or a personal computer.</p>
-        
-        </br>
-        <p><i class="fa fa-cloud" style="font-size:48px;color:white;" ></i></p>
-        <p>Cloud computing characteristics and benefits
-Cloud computing boasts several attractive benefits for businesses and end users. Five of the main benefits of cloud computing are:
 
-Self-service provisioning: End users can spin up compute resources for almost any type of workload on demand.
-This eliminates the traditional need for IT administrators to provision and manage compute resources.
-Elasticity: Companies can scale up as computing needs increase and scale down again as demands decrease.
-This eliminates the need for massive investments in local infrastructure, which may or may not remain active..</p>
+        </br>
         
         <div align="center">
-        <a href="/Interests/sports.html" class="btn btn-dark">Sports</a>
         <a href="../homepage.html" class="btn button">Home</a>
+        <a href="/Interests/sports.html" class="btn btn-dark">Sports</a>
         </div>
         
     </body>
