@@ -14,10 +14,10 @@ function validateDetails(){
         alert("Please make sure your PIN is accurate");
     }
     else if (card == ""){
-        alert("Please enter your PIN And Card Details");
+        alert("Please enter your Card Details");
     }
     else if (String(card).length < 16){
-        alert("Please make sure your PIN is accurate");
+        alert("Please make sure your Card Number is accurate");
     }
     else{
         enablebtnPurchase();

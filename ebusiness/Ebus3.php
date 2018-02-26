@@ -43,7 +43,7 @@ session_start();
         </p>
         <br>
         
-        <a href="../homepage.html" class="btn button">Home</a>
+        <a href="../homepage.html" class="btn button">Cancel Payment</a>
     </body>
     </center>
 </html>

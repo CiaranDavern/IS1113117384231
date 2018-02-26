@@ -116,7 +116,7 @@ h1 {
   transform: translateY(4px);
 }
 .btnProceed{
-   background-color:  orange; /* Orange */
+   background-color:  DodgerBlue; /* Blue */
      border: 2px solid black; /* Black */
     color: white;
     padding: 15px 32px;
@@ -193,6 +193,7 @@ li a {
     float:left;
     width: 90px;
     background-color: orange;
+    border-radius: 12px;
 }
 
 .icon-bar a {
@@ -205,9 +206,6 @@ li a {
 }
 
 .icon-bar a:hover {
-    background-color: #000;
-}
-
-.active {
-    background-color: orange;
+    background-color: #3e8e41;
+    border-radius: 12px;
 }

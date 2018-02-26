@@ -41,7 +41,7 @@ session_start();
             </form>
             
             <br/>
-             <a href="../homepage.html" class="btn button">Home</a>
+             <a href="../homepage.html" class="btn button">Cancel Payment</a>
             <button onClick="validateDetails()" class ="btn btn-dark">Validate</button>
             <?php
             //Set session variables

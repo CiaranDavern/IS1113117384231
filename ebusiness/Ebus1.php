@@ -112,7 +112,7 @@ session_start();
         </form>
         
         <br/>
-        <a href="/homepage.html" class="btn button">Home</a>
+        <a href="/homepage.html" class="btn button">Cancel Payment</a>
         <button type="submit" class="btn btn-dark" onClick="calcSub()""calcDisVatTotal()""display()">Calculate Cost</button>
         <a role="button" href="Ebus1.php" class ="btn btn-dark">Clear Choice</a>
         
