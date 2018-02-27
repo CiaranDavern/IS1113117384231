@@ -116,6 +116,13 @@ session_start();
         <button type="submit" class="btn btn-dark" onClick="calcSub()""calcDisVatTotal()""display()">Calculate Cost</button>
         <a role="button" href="Ebus1.php" class ="btn btn-dark">Clear Choice</a>
         
+        <div align="center">
+        <div class="footer">
+  <h3 class="mainheading">
+      <a href="https://is1113117384231.herokuapp.com/" class="btn git">Live preview of project</a>
+        <a href="https://github.com/CiaranDavern/IS1113117384231/graphs/commit-activity" class="btn git">Link to Graph on Github</a>
+  </h3>
+  </div>
     </body>
     </center>
 </html>
