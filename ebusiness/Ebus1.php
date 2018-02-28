@@ -11,14 +11,14 @@ session_start();
     <!-- JQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="cost_calc.js"></script> 
-    
+<center>
     <ul>
-  <li><a class="btnProceed" href="../homepage.html">Home</a></li>
-  <li><a class="btnProceed"  href="/Interests/sports.html">Interests</a></li>
-  <li><a class="btnProceed"  href="Ebus1.php">E Business</a></li>
-  <li><a class="btnProceed"  href="/cv_page1.html">CV pages</a></li>
+  <li><a href="../homepage.html">Home</a></li>
+  <li><a href="/Interests/sports.html">Interests</a></li>
+  <li><a href="Ebus1.php">E Business</a></li>
+  <li><a href="/cv_page1.html">CV pages</a></li>
 </ul>
-    
+</center>    
     </head>
     
         <div class="header">
@@ -115,14 +115,7 @@ session_start();
         <a href="/homepage.html" class="btn button">Cancel Payment</a>
         <button type="submit" class="btn btn-dark" onClick="calcSub()""calcDisVatTotal()""display()">Calculate Cost</button>
         <a role="button" href="Ebus1.php" class ="btn btn-dark">Clear Choice</a>
-        
-        <div align="center">
-        <div class="footer">
-  <h3 class="mainheading">
-      <a href="https://is1113117384231.herokuapp.com/" class="btn git">Live preview of project</a>
-        <a href="https://github.com/CiaranDavern/IS1113117384231/graphs/commit-activity" class="btn git">Link to Graph on Github</a>
-  </h3>
-  </div>
+
     </body>
     </center>
 </html>

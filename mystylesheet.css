@@ -173,22 +173,40 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 }
 
 li {
-    float: left;
+     display: inline-block;
+     position: relative;
 }
-
 li a {
-    display: inline-block;
-    color: white;
+    color: #1E90FF;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;  
 }
-
+/* Change the link color to (grey) on hover */
+li a:hover {
+    color: #708090;
+}
+li a:before {
+        content: '';
+        display: block;
+        height: 3px;
+        background-color:#D3D3D3;
+      
+        position: absolute;
+        bottom: 0;
+        width: 0%;
+      
+        transition: all ease-in-out 250ms;
+      }
+      
+      li a:hover::before {
+        width: 100%;
+      }
 .icon-bar {
     float:left;
     width: 90px;
@@ -208,4 +226,7 @@ li a {
 .icon-bar a:hover {
     background-color: #3e8e41;
     border-radius: 12px;
+}
+.picture{
+    border-radius: 32px;
 }

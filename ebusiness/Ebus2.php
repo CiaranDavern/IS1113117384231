@@ -10,14 +10,14 @@ session_start();
         
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        
-        <ul>
-  <li><a class="btnProceed" href="../homepage.html">Home</a></li>
-  <li><a class="btnProceed"  href="/Interests/Cloud.html">Interests</a></li>
-  <li><a class="btnProceed"  href="/ebusiness/Ebus1.php">E Business</a></li>
-  <li><a class="btnProceed"  href="/cv_page1.html">CV pages</a></li>
+<center>     
+<ul>
+  <li><a href="../homepage.html">Home</a></li>
+  <li><a href="/Interests/Cloud.html">Interests</a></li>
+  <li><a href="/ebusiness/Ebus1.php">E Business</a></li>
+  <li><a href="/cv_page1.html">CV pages</a></li>
 </ul>
-        
+ </center>       
     </head>
     <body>
         <center>
@@ -56,15 +56,5 @@ session_start();
         </div>
         </center>
         <script type="text/javascript" src="ebus2_validator.js"></script>
-        <div align=center
-        </div>
-            
-            <div align="center">
-        <div class="footer">
-  <h3 class="mainheading">
-      <a href="https://is1113117384231.herokuapp.com/" class="btn git">Live preview of project</a>
-        <a href="https://github.com/CiaranDavern/IS1113117384231/graphs/commit-activity" class="btn git">Link to Graph on Github</a>
-  </h3>
-  </div>
     </body>
 </html>

@@ -8,13 +8,14 @@ session_start();
     <head>
         <title>Receipt</title>
         <center>
-            
-            <ul>
-  <li><a class="btnProceed" href="../homepage.html">Home</a></li>
-  <li><a class="btnProceed"  href="Interests/sports.html">Interests</a></li>
-  <li><a class="btnProceed"  href="/ebusiness/Ebus1.php">E Business</a></li>
-  <li><a class="btnProceed"  href="/cv_page1.html">CV pages</a></li>
+<center>  
+ <ul>
+  <li><a href="../homepage.html">Home</a></li>
+  <li><a href="Interests/sports.html">Interests</a></li>
+  <li><a href="/ebusiness/Ebus1.php">E Business</a></li>
+  <li><a href="/cv_page1.html">CV pages</a></li>
 </ul>
+</center>
             <div class="header">
   <h1 class="mainheading">Receipt</h1>
 </div>
@@ -45,13 +46,6 @@ session_start();
         
         <a href="../homepage.html" class="btn button">Home</a>
         
-        <div align="center">
-        <div class="footer">
-  <h3 class="mainheading">
-      <a href="https://is1113117384231.herokuapp.com/" class="btn git">Live preview of project</a>
-        <a href="https://github.com/CiaranDavern/IS1113117384231/graphs/commit-activity" class="btn git">Link to Graph on Github</a>
-  </h3>
-  </div>
     </body>
     </center>
 </html>
