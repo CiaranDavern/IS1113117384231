@@ -101,7 +101,7 @@ session_start();
             
             <br/>
             
-            <button type="submit" class="btn btn-dark" id="btnProceed" disabled>Add to Shopping Cart</button>
+            <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
              <?php
             //Set session variables
             $_SESSION["subtotal"] = $_POST["subtotal"];

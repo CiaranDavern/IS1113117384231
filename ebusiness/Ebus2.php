@@ -35,7 +35,7 @@ session_start();
                     <label for="user_pin">PIN: </label>
                     <input type="password" id="user_pin" placeholder="Card PIN" maxlength="4">
                     <br>
-                <button type="submit" class ="btn btn-dark" id="btnPurchase" disabled>Proceed with Purchase</button>
+                <button type="submit"  id="btnPurchase" disabled>Proceed with Purchase</button>
                 
               
             </form>

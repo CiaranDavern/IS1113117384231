@@ -25,7 +25,7 @@ session_start();
     <body>
         <style>
             p{
-                font-size: 32px;
+                font-size: 24px;
             }
         </style>
         <p>
@@ -41,9 +41,34 @@ session_start();
         echo "<br>";
         echo "VAT Total is $" . $_SESSION["vattotal"] . ".";
         ?>
+        <p id="one">Order number: </p>
+        <button onclick="random()">Random</button>
+        <script>
+ function random(){
+
+document.getElementById("one").innerHTML =Math.floor(Math.random() * 100000);
+}
+</script>
         </p>
         <br>
-        
+        <div>
+            <center>
+            <a href="https://www.facebook.com">
+            <img src="/ebusiness/facebook-Logo.jpg" 
+            alt="facebook picture" width="8%" height="8%" class="picture">
+            </a>
+            <a href="https://www.linkedin.com/">
+            <img src="/ebusiness/linkedin-inbug-2crev.png" 
+            alt="linkedin picture" width="8%" height="8%" class="picture">
+            </a>
+            <a href="">
+            <img src="/ebusiness/instagram-logo-png-transparent-background.png" 
+            alt="instagram picture" width="8%" height="8%" class="picture">
+            </a>
+            </center>
+        </div>
+        <br>
+        <p> Follow and like us across all our social media platforms for more news on cloud services!</p>
         <a href="../homepage.html" class="btn button">Home</a>
         
     </body>
