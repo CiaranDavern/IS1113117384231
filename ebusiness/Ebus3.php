@@ -41,13 +41,14 @@ session_start();
         echo "<br>";
         echo "VAT Total is $" . $_SESSION["vattotal"] . ".";
         ?>
+        <p>Order Number: </p>
         <p id="one">Order number: </p>
-        <button onclick="random()">Random</button>
         <script>
  function random(){
 
 document.getElementById("one").innerHTML =Math.floor(Math.random() * 100000);
 }
+window.onload = random();
 </script>
         </p>
         <br>
@@ -70,7 +71,7 @@ document.getElementById("one").innerHTML =Math.floor(Math.random() * 100000);
         <br>
         <p> Follow and like us across all our social media platforms for more news on cloud services!</p>
         <a href="../homepage.html" class="btn button">Home</a>
-        
+         <script type="text/javascript" src="ebus2_validator.js"></script>
     </body>
     </center>
 </html>

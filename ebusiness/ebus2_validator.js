@@ -24,11 +24,27 @@ function validateDetails(){
     }
     
 }
-
+function Random(){
+    var rand;
+    rand = document.getElementById("one").innerHTML = rand;
+    
+    if (rand=Math.floor(Math.random() * 100000)){
+        disablebtnRandom();
+    }
+    else{
+        enablebtnRandom();
+    }
+}
 function enablebtnPurchase(){
     $('#btnPurchase').prop('disabled', false);
 }
 
 function disablebtnPurchase() {
     $('#btnPurchase').prop('disabled', true);
+}
+function disablebtnRandom() {
+    $('#btnRandom').prop('disabled', true);
+}
+function enablebtnRandom() {
+    $('#btnRandom').prop('disabled', false);
 }
