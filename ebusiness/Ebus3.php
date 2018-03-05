@@ -9,6 +9,7 @@ session_start();
         <title>Receipt</title>
         <center>
 <center>  
+<!--Nav Bar-->
  <ul>
   <li><a href="../homepage.html">Home</a></li>
   <li><a href="Interests/sports.html">Interests</a></li>
@@ -16,6 +17,7 @@ session_start();
   <li><a href="/cv_page1.html">CV pages</a></li>
 </ul>
 </center>
+<!--Header-->
             <div class="header">
   <h1 class="mainheading">Receipt</h1>
 </div>
@@ -23,12 +25,14 @@ session_start();
         
     </head>
     <body>
+        <!--Inline styling-->
         <style>
             p{
                 font-size: 24px;
             }
         </style>
         <p>
+            <!--Transfering variables from previous pages-->
         <?php
         //Echo session variables that were set on previous page
         echo "Full name is " . $_SESSION["fullname"] . ".";
@@ -41,6 +45,7 @@ session_start();
         echo "<br>";
         echo "VAT Total is $" . $_SESSION["vattotal"] . ".";
         ?>
+        <!--Function to generate a random number for order number-->
         <p>Order Number: </p>
         <p id="one">Order number: </p>
         <script>
@@ -53,6 +58,7 @@ window.onload = random();
         </p>
         <br>
         <div>
+            <!--Link Pictures-->
             <center>
             <a href="https://www.facebook.com">
             <img src="/ebusiness/facebook-Logo.jpg" 
@@ -71,6 +77,13 @@ window.onload = random();
         <br>
         <p> Follow and like us across all our social media platforms for more news on cloud services!</p>
         <a href="../homepage.html" class="btn button">Home</a>
+        <button onclick="pagePrint()"class="btn button">Print this page</button>
+
+<script>
+function pagePrint(){
+    window.print();
+}
+</script>
          <script type="text/javascript" src="ebus2_validator.js"></script>
     </body>
     </center>
